@@ -98,9 +98,9 @@ Hospital-Service-Optimizer/
 
 ## Team
 
-Israel Opoku-Agyemang - Project Coordination 
-James Peprah Ankrah - Database 
-Emmanuell Atta Sarfo Nimoh - Data Structures |
+| Israel Opoku-Agyemang - Team Lead | 
+| James Peprah Ankrah - Database |
+| Emmanuell Atta Sarfo Nimoh - Data Structures |
 | Member | Graph Algorithms |
 | Member | Searching & Sorting |
 | Member | Testing |
