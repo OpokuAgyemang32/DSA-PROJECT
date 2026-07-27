@@ -96,16 +96,15 @@ Hospital-Service-Optimizer/
 
 ---
 
-## Team
+## Team Members
 
-| Israel Opoku-Agyemang - Team Lead | 
-| James Peprah Ankrah - Database |
-| Emmanuell Atta Sarfo Nimoh - Data Structures |
-| Member | Graph Algorithms |
-| Member | Searching & Sorting |
-| Member | Testing |
-| Member | Documentation |
+1. Israel Opoku-Agyemang  
+
+2. James Peprah Ankrah 
+
+3. Emmanuell Atta Sarfo Nimoh 
+
+4. 
 
 ---
-
 
