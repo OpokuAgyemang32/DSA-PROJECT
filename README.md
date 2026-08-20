@@ -107,5 +107,6 @@ Hospital-Service-Optimizer/
 4. Homenya Emefa Jessica
    
 5. Esther Doe Angmortey
+6. Samuel Ameyaw Darko
 ---
 
