@@ -108,5 +108,6 @@ Hospital-Service-Optimizer/
    
 5. Esther Doe Angmortey
 6. Samuel Ameyaw Darko
+7. Romeo Akwasi Boateng
 ---
 
