@@ -1,0 +1,11 @@
+structure,inputSize,inputType,height,timeNanos
+BST,100,sorted,99,740229
+RedBlackTree,100,sorted,6,377360
+BST,500,sorted,499,3153427
+RedBlackTree,500,sorted,8,4825234
+BST,1000,sorted,999,3633654
+RedBlackTree,1000,sorted,9,374281
+BST,2500,sorted,2499,44193434
+RedBlackTree,2500,sorted,11,533590
+BST,5000,sorted,4999,93358376
+RedBlackTree,5000,sorted,12,6082999

@@ -1,0 +1,15 @@
+algorithm,inputSize,comparisons
+LinearSearch,100,100
+BinarySearch,100,13
+LinearSearch,500,500
+BinarySearch,500,17
+LinearSearch,1000,1000
+BinarySearch,1000,19
+LinearSearch,2500,2500
+BinarySearch,2500,23
+LinearSearch,5000,5000
+BinarySearch,5000,25
+LinearSearch,10000,10000
+BinarySearch,10000,27
+LinearSearch,20000,20000
+BinarySearch,20000,29
