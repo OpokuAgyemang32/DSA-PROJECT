@@ -1,9 +1,9 @@
-# GH-SHOC — Ghana Smart Hospital Operations Optimizer
+ GH-SHOC — Ghana Smart Hospital Operations Optimizer
 DCIT 204/308 Joint DSA Project — Hospital/clinic operations context
 
-## Status: ALL 6 PHASES COMPLETE ✅ — updated to match official course CSV templates
 
-**Update:** schema, seed data, database loader, and console app were revised
+
+ schema, seed data, database loader, and console app were revised
 to exactly match the official course-issued templates (`locations_template.csv`,
 `roads_template.csv`, `resources_template.csv`, `service_requests_template.csv`)
 — string IDs (`L001`, `R001`, `Q001`, `P001`/`A001`/`N001`/`T001`) and the
@@ -12,7 +12,7 @@ context and story. See `docs/data_dictionary.md` for the full field-by-field
 mapping. All 123 unit tests + the full console app were re-verified working
 against the new schema.
 
-### Done
+
 - `sql/schema.sql` — full database schema per Section 4.
 - `src/main/java/ghshoc/ds/` — 11 custom data structures, no built-in Java
   collections (Section 8.i): DynamicArray, DoublyLinkedList, ArrayStack,
@@ -55,7 +55,7 @@ against the new schema.
   - `longestCommonSubsequence` — bonus DP example (fuzzy drug-name matching)
 - `src/test/java/ghshoc/` — Phase 1-5 tests, **123 tests total, all passing**.
 
-### How to run
+
 ```
 javac -d out $(find src/main src/test -name "*.java")
 java -ea -cp out ghshoc.Phase1StructureTest
@@ -66,7 +66,7 @@ java -ea -cp out ghshoc.Phase5OptimisationTest
 java -cp out ghshoc.trace.TraceGenerator
 ```
 
-### Phase 6: Database, integration, and empirical performance (final)
+ Phase 6: Database, integration, and empirical performance (final)
 - `lib/sqlite-jdbc-3.53.2.1.jar` — the real JDBC driver (downloaded from
   the official GitHub release, not fabricated) — this is genuine JDBC
   against a real SQLite file, the same API you'd use for MySQL/Postgres.
@@ -94,7 +94,7 @@ java -cp out ghshoc.trace.TraceGenerator
 - `docs/performance_analysis.md` — Section 9 write-up interpreting every
   chart, ready to paste into the report.
 
-### How to run everything
+ How to run everything
 ```
 # Compile (needs the sqlite-jdbc jar on the classpath for db/menu classes)
 javac -cp lib/sqlite-jdbc-3.53.2.1.jar -d out $(find src/main src/test -name "*.java")
@@ -117,7 +117,7 @@ java -cp out ghshoc.perf.PerformanceHarness data/performance
 python3 scripts/plot_performance.py data/performance docs/charts
 ```
 
-## Full project structure
+ Full project structure
 ```
 ghshoc/
   sql/schema.sql                     — 6-table SQLite schema
@@ -141,19 +141,19 @@ ghshoc/
   README.md                          — this file
 ```
 
-## What's still on you
+ What's still on you
 This gets you a fully working, tested system — but the brief (Section 15)
 requires you to be able to explain and modify every part of it at the oral
 defense, and requires disclosure of AI assistance. Before submission:
-1. **Read through the code** — start with `Main.java` (it ties everything
+1. Read through the code** — start with `Main.java` (it ties everything
    together) then trace into whichever structures/algorithms you're least
    sure of. Ask me to walk through any specific file in depth.
-2. **Write the remaining report prose** — problem statement, individual
+2. Write the remaining report prose** — problem statement, individual
    contribution breakdown per team member, architecture diagram, and the
    edge-case discussion (this repo gives you the technical content and
    evidence; the narrative connecting it to your specific team's process
    still needs to be written by your group).
-3. **Disclose AI assistance** per Section 15, and be ready to explain any
+3. Disclose AI assistance** per Section 15, and be ready to explain any
    line of this code without me in the room.
 - Phase 6: JDBC database loader, CSV seed data (50 locations/100 roads/300
   requests/30 resources), console menu, empirical performance harness + CSVs
